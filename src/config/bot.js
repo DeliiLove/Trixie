@@ -24,9 +24,9 @@ export const botConfig = {
     activities: [
       {
         // Text users will see (example: "Playing /help | Titan Bot").
-        name: "Made with ❤️",
+        name: "Made By Delii",
         // Activity type number (0 = Playing).
-        type: 0,
+        type:3,
       },
     ],
   },
@@ -66,7 +66,7 @@ export const botConfig = {
 
     // Embed colors by application status.
     statusColors: {
-      pending: "#FFA500",
+      pending: "#008000",
       approved: "#00FF00",
       denied: "#FF0000",
     },
@@ -91,7 +91,7 @@ export const botConfig = {
   embeds: {
     colors: {
       // Main brand colors.
-      primary: "#336699",
+      primary: "#008000",
       secondary: "#2F3136",
 
       // Standard status colors for success/error/warning/info messages.
