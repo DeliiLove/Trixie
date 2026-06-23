@@ -24,9 +24,9 @@ export const botConfig = {
     activities: [
       {
         // Text users will see (example: "Playing /help | Titan Bot").
-        name: "Made By Delii",
+        name: "Delii The Wise Toad",
         // Activity type number (0 = Playing).
-        type:3,
+        type:1,
       },
     ],
   },
@@ -43,7 +43,7 @@ export const botConfig = {
     defaultCooldown: 3,
 
     // If true, old commands are removed before re-registering.
-    deleteCommands: false,
+    deleteCommands: true,
 
     // Optional server ID used for testing slash commands quickly.
     testGuildId: process.env.TEST_GUILD_ID,
